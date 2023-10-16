@@ -5,7 +5,7 @@ export default function Bone () {
         <div>
             <h1>BONÉ</h1>
             <div>
-                <p>bgbskvnsfoanfsvsvsnvinvsvnsv</p>
+                <p>R$120,00</p>
                
                 <figure>
                     <Image src="/img/bone.png" alt="Bone" width={320} height={188}/>

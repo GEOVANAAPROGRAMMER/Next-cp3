@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,16 +17,30 @@ export default function RootLayout({ children }) {
     
           <nav>
             
-            <p><Link href="/produtos/bone">BONÉ</Link></p>
-            <p><Link href="/produtos/calca">CALÇA</Link></p>
-            <p><Link href="/produtos/camisa">CAMISA</Link></p>
-            <p><Link href="/produtos/oculos">ÓCULOS</Link></p>
-            <p><Link href="/produtos/sapato">SAPATO</Link></p>
+            
 
           </nav>
-       
+      
         {children}
+        <h2>LISTA DE PRODUTOS</h2>
         
+        <Image src="/img/calca.jpg" alt='calca' width={50} height={50}/>
+          <Link href="/produtos/calca"></Link>
+
+          <Image src="/img/bone.png" alt='bone' width={50} height={50}/>
+          <Link href="/produtos/bone"></Link>
+
+          <Image src="/img/camisa.png" alt='camisa' width={50} height={50}/>
+          <Link href="/produtos/camisa"></Link>
+
+          <Image src="/img/oculos.jpg" alt='oculos' width={50} height={50}/>
+          <Link href="/produtos/oculos"></Link>
+
+          <Image src="/img/sapato.jpg" alt='sapato' width={50} height={50}/>
+          <Link href="/produtos/sapato"></Link>
+        
+            
+           
       </body>
     </html>
   )
