@@ -41,8 +41,8 @@ export default function RootLayout({ children }) {
             <a href="/produtos/sapato" className="card-link">
               <Image src="/img/sapato.jpg" alt='sapato' width={50} height={50} />
             </a>
-            <Cabecalho/>
-            
+          
+
           </div>
         </div>
       </body>
