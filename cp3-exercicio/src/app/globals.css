@@ -1,5 +1,3 @@
-
-
 body {
   box-sizing: border-box;
   padding: 0;
@@ -7,11 +5,7 @@ body {
   text-decoration: none;
   text-align: center;
   background: #52758e;
- 
- 
-    
-   
-  
+
 }
 
 .centered-container {
@@ -19,14 +13,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh; 
+  height: 50vh;
 }
 
 
 .card-container {
   display: flex;
   gap: 20px;
-  
+
 }
 
 
@@ -45,11 +39,12 @@ body {
 .retorne {
   font-size: 19px;
   font-family: cursive;
-  
+
 
 
 
 }
+
 .titulos {
   font-size: 50px;
   font-family: cursive;
@@ -58,17 +53,10 @@ body {
 .loja {
   font-size: 75px;
   font-family: Righteous;
-  }
+}
 
-  .valor {
-    font-size: 24px;
-    font-family: cursive;
-  }
-
-
-
-
-
-
-
+.valor {
+  font-size: 24px;
+  font-family: cursive;
+}
 
