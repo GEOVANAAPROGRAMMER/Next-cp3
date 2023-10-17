@@ -14,33 +14,37 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt">
       <body className={inter.className}>
-    
-          <nav>
-            
-            
 
-          </nav>
-      
         {children}
-        <h2>LISTA DE PRODUTOS</h2>
         
-        <Image src="/img/calca.jpg" alt='calca' width={50} height={50}/>
-          <Link href="/produtos/calca"></Link>
-
-          <Image src="/img/bone.png" alt='bone' width={50} height={50}/>
-          <Link href="/produtos/bone"></Link>
-
-          <Image src="/img/camisa.png" alt='camisa' width={50} height={50}/>
-          <Link href="/produtos/camisa"></Link>
-
-          <Image src="/img/oculos.jpg" alt='oculos' width={50} height={50}/>
-          <Link href="/produtos/oculos"></Link>
-
-          <Image src="/img/sapato.jpg" alt='sapato' width={50} height={50}/>
-          <Link href="/produtos/sapato"></Link>
-        
+        <div className="centered-container">
+          <h2>LISTA DE PRODUTOS</h2>
+          
+          <div className="card-container">
             
+            <a href="/produtos/calca" className="card-link">
+              <Image src="/img/calca.jpg" alt='calca' width={50} height={50} />
+            </a>
            
+            <a href="/produtos/bone" className="card-link">
+              <Image src="/img/bone.png" alt='bone' width={50} height={50} />
+            </a>
+           
+            <a href="/produtos/camisa" className="card-link">
+              <Image src="/img/camisa.png" alt='camisa' width={50} height={50} />
+            </a>
+          
+            <a href= "/produtos/oculos" className="card-link">
+              <Image src="/img/oculos.jpg" alt='oculos' width={50} height={50} />
+            </a>
+           
+            <a href="/produtos/sapato" className="card-link">
+              <Image src="/img/sapato.jpg" alt='sapato' width={50} height={50} />
+            </a>
+            <Cabecalho/>
+            
+          </div>
+        </div>
       </body>
     </html>
   )
