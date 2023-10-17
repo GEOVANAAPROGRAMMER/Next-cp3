@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Sapato () {
     return(
       <div>
-        <h1 className='sapato'>SAPATO</h1>
+        <h1 className='titulos'>SAPATO</h1>
         <div>
                 <p>R$350,00</p>
                

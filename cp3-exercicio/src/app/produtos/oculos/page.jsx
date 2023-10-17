@@ -3,14 +3,16 @@ import Link from 'next/link'
 export default function Oculos () {
     return(
       <div>
-        <h1>ÓCULOS</h1>
+         <h1 className='titulos'>ÓCULOS</h1>
         <div>
                 <p>R$70,00</p>
                
                 <figure>
                     <Image src="/img/oculos.jpg" alt="Oculos" width={300} height={250}/>
                 </figure>
-                 <p> <Link href="/">BACK TO HOME</Link></p>
+                <div className='retorne'>
+                 <p> <Link href="/">RETORNE A LOJA</Link></p>
+                 </div>
             </div>
       </div>
     )
