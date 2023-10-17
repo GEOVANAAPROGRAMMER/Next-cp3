@@ -8,7 +8,7 @@ export default function Camisa () {
                 <p>R$120,00</p>
                
                 <figure>
-                    <Image src="/img/camisa.png" alt="Bone" width={320} height={188}/>
+                    <Image src="/img/camisa.png" alt="Bone" width={300} height={250}/>
                 </figure>
                  <p> <Link href="/">BACK TO HOME</Link></p>
             </div>

@@ -8,7 +8,7 @@ export default function Oculos () {
                 <p>R$70,00</p>
                
                 <figure>
-                    <Image src="/img/oculos.jpg" alt="Oculos" width={320} height={188}/>
+                    <Image src="/img/oculos.jpg" alt="Oculos" width={300} height={250}/>
                 </figure>
                  <p> <Link href="/">BACK TO HOME</Link></p>
             </div>

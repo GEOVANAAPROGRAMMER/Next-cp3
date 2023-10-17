@@ -8,7 +8,7 @@ export default function Calca () {
                 <p>R$350,00</p>
                
                 <figure>
-                    <Image src="/img/calca.jpg" alt="Calça" width={320} height={300}/>
+                    <Image src="/img/calca.jpg" alt="Calça" width={300} height={250}/>
                 </figure>
                  <p> <Link href="/">BACK TO HOME</Link></p>
             </div>
