@@ -5,7 +5,7 @@ export default function Calca () {
       <div>
        <h1 className='titulos'>CALÇA</h1>
         <div>
-                <p>R$350,00</p>
+        <p className='valor'>R$350,00</p>
                
                 <figure>
                     <Image src="/img/calca.jpg" alt="Calça" width={300} height={250}/>

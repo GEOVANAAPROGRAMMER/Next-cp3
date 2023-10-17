@@ -5,7 +5,7 @@ export default function Oculos () {
       <div>
          <h1 className='titulos'>ÓCULOS</h1>
         <div>
-                <p>R$70,00</p>
+        <p className='valor'>R$50,00</p>
                
                 <figure>
                     <Image src="/img/oculos.jpg" alt="Oculos" width={300} height={250}/>
