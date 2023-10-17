@@ -14,6 +14,34 @@ body {
   
 }
 
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; 
+}
+
+
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.card-link img {
+  border: 5px solid #ccc;
+}
+
+
+
+
 
 
 

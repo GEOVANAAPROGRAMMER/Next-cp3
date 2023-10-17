@@ -5,7 +5,7 @@ export default function Sapato () {
       <div>
         <h1>SAPATO</h1>
         <div>
-                <p>bgbskvnsfoanfsvsvsnvinvsvnsv</p>
+                <p>R$350,00</p>
                
                 <figure>
                     <Image src="/img/sapato.jpg" alt="Sapato" width={320} height={188}/>

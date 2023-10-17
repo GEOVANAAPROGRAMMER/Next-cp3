@@ -5,7 +5,7 @@ export default function Oculos () {
       <div>
         <h1>ÓCULOS</h1>
         <div>
-                <p>bgbskvnsfoanfsvsvsnvinvsvnsv</p>
+                <p>R$70,00</p>
                
                 <figure>
                     <Image src="/img/oculos.jpg" alt="Oculos" width={320} height={188}/>
