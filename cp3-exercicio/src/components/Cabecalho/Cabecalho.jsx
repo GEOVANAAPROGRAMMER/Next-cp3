@@ -20,9 +20,7 @@ export default function Cabecalho() {
                     <p>
                         <Link href="/produtos/sapato">SAPATO</Link>
                     </p>
-                    <p>
-                        <Link href="/produtos/mosfet/1">Produtos - 1</Link>
-                    </p>
+
                 </nav>
             </header>
         </div>

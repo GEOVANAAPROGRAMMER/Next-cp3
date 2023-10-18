@@ -18,6 +18,8 @@ export default function RootLayout({ children }) {
 
         {children}
 
+        <Main />
+
       </body>
     </html>
   )

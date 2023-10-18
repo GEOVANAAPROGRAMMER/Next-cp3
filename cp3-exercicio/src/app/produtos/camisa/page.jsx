@@ -1,19 +1,21 @@
 import Image from 'next/image'
 import Link from 'next/link'
-export default function Camisa () {
-    return(
+export default function Camisa() {
+  return (
+    <div>
+      <h1 className='titulos'>CAMISA</h1>
       <div>
-        <h1 className='titulos'>CAMISA</h1>
-        <div>
         <p className='valor'>R$170,00</p>
-               
-                <figure>
-                    <Image src="/img/camisa.png" alt="Bone" width={300} height={250}/>
-                </figure>
-                <div className='retorne'>
-                 <p> <Link href="/">RETORNE A LOJA</Link></p>
-                 </div>
-            </div>
+
+        <figure>
+          <Image src="/img/camisa.png" alt="Bone" width={300} height={250} />
+        </figure>
+
+        <div className='retorne'>
+          <p><Link href="/">RETORNE A LOJA</Link></p>
+        </div>
+
       </div>
-    )
-  }
+    </div>
+  )
+}
