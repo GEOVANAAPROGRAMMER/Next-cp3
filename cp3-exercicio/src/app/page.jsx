@@ -27,7 +27,11 @@ export default function () {
           <Image src="/img/sapato.jpg" alt='sapato' width={50} height={50} />
         </a>
 
-
+        <div>
+          <p>
+            <Link href="/produtos/mosfet/1">Produtos - 1</Link>
+          </p>
+        </div>
       </div>
     </div>
   )
