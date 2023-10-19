@@ -6,19 +6,10 @@ export default function Cabecalho() {
             <header>
                 <nav>
                     <p>
-                        <Link href="/produtos/bone">BONÉ</Link>
-                    </p>
-                    <p>
-                        <Link href="/produtos/calca">CALÇA</Link>
-                    </p>
-                    <p>
-                        <Link href="/produtos/camisa">CAMISA</Link>
-                    </p>
-                    <p>
-                        <Link href="/produtos/oculos">ÓCULOS</Link>
-                    </p>
-                    <p>
-                        <Link href="/produtos/sapato">SAPATO</Link>
+                        <Link href="/produtos/1"> Produto  -  1 </Link> -
+                        <Link href="/produtos/2"> Produto  -  2 </Link> -
+                        <Link href="/produtos/3"> Produto  -  3 </Link> -
+                        <Link href="/produtos/4"> Produto  -  4 </Link>
                     </p>
 
                 </nav>

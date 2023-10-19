@@ -1,4 +1,5 @@
 import './globals.css'
+import Link from 'next/link'
 import { Inter } from 'next/font/google'
 import Cabecalho from '@/components/Cabecalho/Cabecalho'
 
@@ -18,7 +19,7 @@ export default function RootLayout({ children }) {
 
         {children}
 
-        <Main />
+        
 
       </body>
     </html>
